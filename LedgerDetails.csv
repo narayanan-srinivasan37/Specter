@@ -1,45 +1,46 @@
-NAME,PARENT,Mobile no,State ,Country,Address,Pincode,GSTIN,Credit Perios
-Bank A/c,Capital Account,,Tamil Nadu,India,,611001,,
+NAME,PARENT,Mobile no,State ,Country,Address,Pincode,GSTIN,Credit Period,Grand Parent
+Bank A/c,Capital Account,,Tamil Nadu,India,,611001,,,Primary
 Capital Account,Capital Account,,Tamil Nadu,India,"67, Town	
-",611112,,
-Cash,Cash-in-Hand,,,,,,,
-Cash Sales,Sales Accounts,,,,,,,
-Central GST,Duties and Taxes,,,,,,,
-Credit Sales,Sales Accounts,,,,,,,
-Fortune Sunflower Oil,Sundry Creditors,,Tamil Nadu,India,,621112,,7 Days
+",611112,,,Primary
+Cash,Cash-in-Hand,,,,,,,,Current Assets
+Cash Sales,Sales Accounts,,,,,,,,Primary
+Central GST,Duties and Taxes,,,,,,,,Current Liabilities
+Credit Sales,Sales Accounts,,,,,,,,Primary
+Fortune Sunflower Oil,Sundry Creditors,,Tamil Nadu,India,,621112,,7 Days,Current Liabilities
 Fresh Super Market,Sundry Debtors,,Tamil Nadu,India,"5/95 Junction Road	
-",621112,,7 Days
+",621112,,7 Days,Current Assets
 Gensys Retail Shop,Sundry Debtors,,Tamil Nadu,India,"58, North Car Street	
 Alwarthirunagari	
-",628612,,7 Days
-Goddown 1,Stock-in-Hand,,,,,,,
-Goddown 2,Stock-in-Hand,,,,,,,
-Goddown 3,Stock-in-Hand,,,,,,,
-Idhayam Oil,Sundry Creditors,,Tamil Nadu,India,,611001,,7 Days
+",628612,,7 Days,Current Assets
+Goddown 1,Stock-in-Hand,,,,,,,,Current Assets
+Goddown 2,Stock-in-Hand,,,,,,,,Current Assets
+Goddown 3,Stock-in-Hand,,,,,,,,Current Assets
+Idhayam Oil,Sundry Creditors,,Tamil Nadu,India,,611001,,7 Days,Current Liabilities
 ID Retail Shop,Sundry Debtors,,Tamil Nadu,India,"69, Juntion Road	
-",611423,,7 Days
+",611423,,7 Days,Current Assets
 KTV EDIBLE OILS LIMITED,Sundry Debtors,,Tamil Nadu,India,"Chennai, Tamil Nadu, India	
-",,33AABCK8863F1ZH,
-Phantom Shop,Sundry Debtors,,Tamil Nadu,India,"40, Main Bazzar Road.	
+",,33AABCK8863F1ZH,,Current Assets
+Phantom Shop,Tirunelveli Town,,Tamil Nadu,India,"40, Main Bazzar Road.	
 VM Chatram	
-",611001,,7 Days
-Profit and Loss A/c,Primary,,,,,,,
-Purchase Account,Purchase Accounts,,,,,,,
-Ramajayam,Sundry Creditors,,Tamil Nadu,India,,612121,,7 Days
-Roobini,Sundry Creditors,,Tamil Nadu,India,,612112,,7 Days
+",611001,,7 Days,Sundry Debtors
+Profit and Loss A/c,Primary,,,,,,,,
+Purchase Account,Purchase Accounts,,,,,,,,Primary
+Ramajayam,Sundry Creditors,,Tamil Nadu,India,,612121,,7 Days,Current Liabilities
+Roobini,Sundry Creditors,,Tamil Nadu,India,,612112,,7 Days,Current Liabilities
+Rounding Off,Indirect Expenses,,,,,,,,Primary
 Sample Customer,Sundry Debtors,85259165095,Tamil Nadu,India,"58, North Car Street	
-",,1234567890,
-Sri Sai Super Market,Sundry Debtors,,Tamil Nadu,India,"87, State  Bank Colony	
+",,1234567890,,Current Assets
+Sri Sai Super Market,Tirunelveli Town,,Tamil Nadu,India,"87, State  Bank Colony	
 MaharajaNagar	
-",612323,,7 Days
-State GST,Duties and Taxes,,,,,,,
-Vehicle 1,Stock-in-Hand,,,,,,,
-Vehicle 2,Stock-in-Hand,,,,,,,
-Vehicle 3,Stock-in-Hand,,,,,,,
+",612323,,7 Days,Sundry Debtors
+State GST,Duties and Taxes,,,,,,,,Current Liabilities
+Vehicle 1,Stock-in-Hand,,,,,,,,Current Assets
+Vehicle 2,Stock-in-Hand,,,,,,,,Current Assets
+Vehicle 3,Stock-in-Hand,,,,,,,,Current Assets
 Venkateshwara Retail Shop,Sundry Debtors,,Tamil Nadu,India,"68, Nazerth Road	
 Alwarthiunagari	
-",628612,,7 Days
+",628612,,7 Days,Current Assets
 VVD and Sons Private Limited,Sundry Creditors,,Tamil Nadu,India,"Thoothukudi, Tamil Nadu,  India	
-",,33AAACV8438J2Z2,
+",,33AAACV8438J2Z2,,Current Liabilities
 VVV and Sons Edible Oils Limited,Sundry Creditors,,Tamil Nadu,India,"Virudhunagar, Tamil Nadu,  India	
-",,33AACCV6897R1ZA,7 Days
+",,33AACCV6897R1ZA,7 Days,Current Liabilities

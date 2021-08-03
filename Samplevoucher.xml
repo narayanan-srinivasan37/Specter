@@ -1,0 +1,457 @@
+<ENVELOPE>
+	<HEADER>
+		<TALLYREQUEST>
+			Import Data
+		</TALLYREQUEST>
+	</HEADER>
+	<BODY>
+		<IMPORTDATA>
+			<REQUESTDESC>
+				<REPORTNAME>
+					Vouchers
+				</REPORTNAME>
+				<STATICVARIABLES>
+					<SVCURRENTCOMPANY>
+						Apple Inc.
+					</SVCURRENTCOMPANY>
+				</STATICVARIABLES>
+			</REQUESTDESC>
+			<REQUESTDATA>
+				<TALLYMESSAGE xmlns:UDF="TallyUDF">
+					<VOUCHER VCHTYPE="Sales" ACTION="Create" OBJVIEW="Invoice Voucher View">
+						<ADDRESS.LIST TYPE="String">
+							<ADDRESS>
+								58, North Car Street
+							</ADDRESS>
+							<ADDRESS>
+								Alwarthirunagari
+							</ADDRESS>
+						</ADDRESS.LIST>
+						<BASICBUYERADDRESS.LIST TYPE="String">
+							<BASICBUYERADDRESS>
+								58, North Car Street
+							</BASICBUYERADDRESS>
+							<BASICBUYERADDRESS>
+								Alwarthirunagari
+							</BASICBUYERADDRESS>
+						</BASICBUYERADDRESS.LIST>
+						<OLDAUDITENTRYIDS.LIST>
+							<OLDAUDITENTRYIDS>
+								-1
+							</OLDAUDITENTRYIDS>
+						</OLDAUDITENTRYIDS.LIST>
+						<DATE>
+							20210722
+						</DATE>
+						<STATENAME>
+							Tamil Nadu
+						</STATENAME>
+						<NARRATION>
+							Invoice voucher forGensys Retail Shop
+						</NARRATION>
+						<COUNTRYOFRESIDENCE>
+							India
+						</COUNTRYOFRESIDENCE>
+						<PLACEOFSUPPLY>
+							Tamil Nadu
+						</PLACEOFSUPPLY>
+						<PARTYGSTIN>
+						</PARTYGSTIN>
+						<PARTYNAME>
+							Gensys Retail Shop
+						</PARTYNAME>
+						<PARTYLEDGERNAME>
+							Gensys Retail Shop
+						</PARTYLEDGERNAME>
+						<VOUCHERTYPENAME>
+							Sales Voucher
+						</VOUCHERTYPENAME>
+						<VOUCHERNUMBER>
+							1
+						</VOUCHERNUMBER>
+						<BASICBASEPARTYNAME>
+							Gensys Retail Shop
+						</BASICBASEPARTYNAME>
+						<CSTFORMISSUETYPE />
+						<CSTFORMRECVTYPE />
+						<FBTPAYMENTTYPE>
+							Default
+						</FBTPAYMENTTYPE>
+						<PERSISTEDVIEW>
+							Invoice Voucher View
+						</PERSISTEDVIEW>
+						<DISPATCHFROMNAME>
+							Appleinc.Com
+						</DISPATCHFROMNAME>
+						<DISPATCHFROMSTATENAME>
+							Tamil Nadu
+						</DISPATCHFROMSTATENAME>
+						<BASICBUYERNAME>
+							Gensys Retail Shop
+						</BASICBUYERNAME>
+						<BASICDUEDATEOFPYMT>
+							7 Days
+						</BASICDUEDATEOFPYMT>
+						<PARTYMAILINGNAME>
+							Gensys Retail Shop
+						</PARTYMAILINGNAME>
+						<PARTYPINCODE>
+							628612
+						</PARTYPINCODE>
+						<CONSIGNEEMAILINGNAME>
+							Gensys Retail Shop
+						</CONSIGNEEMAILINGNAME>
+						<CONSIGNEECOUNTRYNAME>
+							India
+						</CONSIGNEECOUNTRYNAME>
+						<VCHGSTCLASS />
+						<CONSIGNEESTATENAME>
+							Tamil Nadu
+						</CONSIGNEESTATENAME>
+						<CONSIGNEEPINCODE>
+							628612
+						</CONSIGNEEPINCODE>
+						<EFFECTIVEDATE>
+							20210722
+						</EFFECTIVEDATE>
+						<ISINVOICE>
+							Yes
+						</ISINVOICE>
+						<ISVATDUTYPAID>
+							Yes
+						</ISVATDUTYPAID>
+						<RESETIRNQRCODE>
+							No
+						</RESETIRNQRCODE>
+						<ALLINVENTORYENTRIES.LIST>
+							<STOCKITEMNAME>
+								Idhayam 1litre
+							</STOCKITEMNAME>
+							<ISDEEMEDPOSITIVE>
+								No
+							</ISDEEMEDPOSITIVE>
+							<ISLASTDEEMEDPOSITIVE>
+								No
+							</ISLASTDEEMEDPOSITIVE>
+							<ISAUTONEGATE>
+								No
+							</ISAUTONEGATE>
+							<ISCUSTOMSCLEARANCE>
+								No
+							</ISCUSTOMSCLEARANCE>
+							<ISTRACKCOMPONENT>
+								No
+							</ISTRACKCOMPONENT>
+							<ISTRACKPRODUCTION>
+								No
+							</ISTRACKPRODUCTION>
+							<ISPRIMARYITEM>
+								No
+							</ISPRIMARYITEM>
+							<ISSCRAP>
+								No
+							</ISSCRAP>
+							<RATE>
+								251/Pcs
+							</RATE>
+							<AMOUNT>
+								2761.00
+							</AMOUNT>
+							<ACTUALQTY>
+								11 Pcs
+							</ACTUALQTY>
+							<BILLEDQTY>
+								11 Pcs
+							</BILLEDQTY>
+							<BATCHALLOCATIONS.LIST>
+								<GODOWNNAME>
+									GODOWN
+								</GODOWNNAME>
+								<BATCHNAME>
+									Primary Batch
+								</BATCHNAME>
+								<INDENTNO />
+								<ORDERNO>
+									1
+								</ORDERNO>
+								<TRACKINGNUMBER />
+								<DYNAMICCSTISCLEARED>
+									No
+								</DYNAMICCSTISCLEARED>
+								<AMOUNT>
+									2761.00
+								</AMOUNT>
+								<ACTUALQTY>
+									11 Pcs
+								</ACTUALQTY>
+								<BILLEDQTY>
+									11 Pcs
+								</BILLEDQTY>
+								<ORDERDUEDATE>
+									7 Days
+								</ORDERDUEDATE>
+							</BATCHALLOCATIONS.LIST>
+							<ACCOUNTINGALLOCATIONS.LIST>
+								<OLDAUDITENTRYIDS.LIST TYPE="Number">
+									<OLDAUDITENTRYIDS>
+										-1
+									</OLDAUDITENTRYIDS>
+								</OLDAUDITENTRYIDS.LIST>
+								<LEDGERNAME>
+									Credit
+									Sales
+								</LEDGERNAME>
+								<GSTCLASS />
+								<ISDEEMEDPOSITIVE>
+									No
+								</ISDEEMEDPOSITIVE>
+								<ISCAPVATTAXALTERED>
+									No
+								</ISCAPVATTAXALTERED>
+								<ISCAPVATNOTCLAIMED>
+									No
+								</ISCAPVATNOTCLAIMED>
+								<AMOUNT>
+									2761.00
+								</AMOUNT>
+								<RATEDETAILS.LIST>
+									<GSTRATEDUTYHEAD>
+										Integrated
+										Tax
+									</GSTRATEDUTYHEAD>
+								</RATEDETAILS.LIST>
+								<RATEDETAILS.LIST>
+									<GSTRATEDUTYHEAD>
+										Central Tax
+									</GSTRATEDUTYHEAD>
+								</RATEDETAILS.LIST>
+								<RATEDETAILS.LIST>
+									<GSTRATEDUTYHEAD>
+										State Tax
+									</GSTRATEDUTYHEAD>
+								</RATEDETAILS.LIST>
+								<RATEDETAILS.LIST>
+									<GSTRATEDUTYHEAD>
+										Cess
+									</GSTRATEDUTYHEAD>
+								</RATEDETAILS.LIST>
+							</ACCOUNTINGALLOCATIONS.LIST>
+						</ALLINVENTORYENTRIES.LIST>
+						<ALLINVENTORYENTRIES.LIST>
+							<STOCKITEMNAME>
+								Idhayam 500ml
+							</STOCKITEMNAME>
+							<ISDEEMEDPOSITIVE>
+								No
+							</ISDEEMEDPOSITIVE>
+							<ISLASTDEEMEDPOSITIVE>
+								No
+							</ISLASTDEEMEDPOSITIVE>
+							<ISAUTONEGATE>
+								No
+							</ISAUTONEGATE>
+							<ISCUSTOMSCLEARANCE>
+								No
+							</ISCUSTOMSCLEARANCE>
+							<ISTRACKCOMPONENT>
+								No
+							</ISTRACKCOMPONENT>
+							<ISTRACKPRODUCTION>
+								No
+							</ISTRACKPRODUCTION>
+							<ISPRIMARYITEM>
+								No
+							</ISPRIMARYITEM>
+							<ISSCRAP>
+								No
+							</ISSCRAP>
+							<RATE>
+								151/Pcs
+							</RATE>
+							<AMOUNT>
+								1963.00
+							</AMOUNT>
+							<ACTUALQTY>
+								13 Pcs
+							</ACTUALQTY>
+							<BILLEDQTY>
+								13 Pcs
+							</BILLEDQTY>
+							<BATCHALLOCATIONS.LIST>
+								<GODOWNNAME>
+									GODOWN
+								</GODOWNNAME>
+								<BATCHNAME>
+									Primary Batch
+								</BATCHNAME>
+								<INDENTNO />
+								<ORDERNO>
+									1
+								</ORDERNO>
+								<TRACKINGNUMBER />
+								<DYNAMICCSTISCLEARED>
+									No
+								</DYNAMICCSTISCLEARED>
+								<AMOUNT>
+									1963.00
+								</AMOUNT>
+								<ACTUALQTY>
+									13 Pcs
+								</ACTUALQTY>
+								<BILLEDQTY>
+									13 Pcs
+								</BILLEDQTY>
+								<ORDERDUEDATE>
+									7 Days
+								</ORDERDUEDATE>
+							</BATCHALLOCATIONS.LIST>
+							<ACCOUNTINGALLOCATIONS.LIST>
+								<OLDAUDITENTRYIDS.LIST TYPE="Number">
+									<OLDAUDITENTRYIDS>
+										-1
+									</OLDAUDITENTRYIDS>
+								</OLDAUDITENTRYIDS.LIST>
+								<LEDGERNAME>
+									Credit Sales
+								</LEDGERNAME>
+								<GSTCLASS />
+								<ISDEEMEDPOSITIVE>
+									No
+								</ISDEEMEDPOSITIVE>
+								<ISCAPVATTAXALTERED>
+									No
+								</ISCAPVATTAXALTERED>
+								<ISCAPVATNOTCLAIMED>
+									No
+								</ISCAPVATNOTCLAIMED>
+								<AMOUNT>
+									1963.00
+								</AMOUNT>
+								<RATEDETAILS.LIST>
+									<GSTRATEDUTYHEAD>
+										Integrated Tax
+									</GSTRATEDUTYHEAD>
+								</RATEDETAILS.LIST>
+								<RATEDETAILS.LIST>
+									<GSTRATEDUTYHEAD>
+										Central Tax
+									</GSTRATEDUTYHEAD>
+								</RATEDETAILS.LIST>
+								<RATEDETAILS.LIST>
+									<GSTRATEDUTYHEAD>
+										State Tax
+									</GSTRATEDUTYHEAD>
+								</RATEDETAILS.LIST>
+								<RATEDETAILS.LIST>
+									<GSTRATEDUTYHEAD>
+										Cess
+									</GSTRATEDUTYHEAD>
+								</RATEDETAILS.LIST>
+							</ACCOUNTINGALLOCATIONS.LIST>
+						</ALLINVENTORYENTRIES.LIST>
+						<LEDGERENTRIES.LIST>
+							<OLDAUDITENTRYIDS.LIST>
+								<OLDAUDITENTRYIDS>
+									-1
+								</OLDAUDITENTRYIDS>
+							</OLDAUDITENTRYIDS.LIST>
+							<LEDGERNAME>
+								Gensys Retail Shop
+							</LEDGERNAME>
+							<GSTCLASS />
+							<ISDEEMEDPOSITIVE>
+								Yes
+							</ISDEEMEDPOSITIVE>
+							<AMOUNT>
+								-4960.20
+							</AMOUNT>
+							<BILLALLOCATIONS.LIST>
+								<NAME>
+									1
+								</NAME>
+								<BILLCREDITPERIOD>
+									7 Days
+								</BILLCREDITPERIOD>
+								<BILLTYPE>
+									New Ref
+								</BILLTYPE>
+								<TDSDEDUCTEEISSPECIALRATE>
+									No
+								</TDSDEDUCTEEISSPECIALRATE>
+								<AMOUNT>
+									-4960.20
+								</AMOUNT>
+							</BILLALLOCATIONS.LIST>
+						</LEDGERENTRIES.LIST>
+						<LEDGERENTRIES.LIST>
+							<LEDGERNAME>
+								Central GST
+							</LEDGERNAME>
+							<GSTCLASS />
+							<ISDEEMEDPOSITIVE>
+								No
+							</ISDEEMEDPOSITIVE>
+							<LEDGERFROMITEM>
+								No
+							</LEDGERFROMITEM>
+							<REMOVEZEROENTRIES>
+								No
+							</REMOVEZEROENTRIES>
+							<ISPARTYLEDGER>
+								No
+							</ISPARTYLEDGER>
+							<ISLASTDEEMEDPOSITIVE>
+								No
+							</ISLASTDEEMEDPOSITIVE>
+							<ISCAPVATTAXALTERED>
+								No
+							</ISCAPVATTAXALTERED>
+							<ISCAPVATNOTCLAIMED>
+								No
+							</ISCAPVATNOTCLAIMED>
+							<AMOUNT>
+								118.10
+							</AMOUNT>
+							<VATEXPAMOUNT>
+								118.10
+							</VATEXPAMOUNT>
+						</LEDGERENTRIES.LIST>
+						<LEDGERENTRIES.LIST>
+							<LEDGERNAME>
+								State GST
+							</LEDGERNAME>
+							<GSTCLASS />
+							<ISDEEMEDPOSITIVE>
+								No
+							</ISDEEMEDPOSITIVE>
+							<LEDGERFROMITEM>
+								No
+							</LEDGERFROMITEM>
+							<REMOVEZEROENTRIES>
+								No
+							</REMOVEZEROENTRIES>
+							<ISPARTYLEDGER>
+								No
+							</ISPARTYLEDGER>
+							<ISLASTDEEMEDPOSITIVE>
+								No
+							</ISLASTDEEMEDPOSITIVE>
+							<ISCAPVATTAXALTERED>
+								No
+							</ISCAPVATTAXALTERED>
+							<ISCAPVATNOTCLAIMED>
+								No
+							</ISCAPVATNOTCLAIMED>
+							<AMOUNT>
+								118.10
+							</AMOUNT>
+							<VATEXPAMOUNT>
+								118.10
+							</VATEXPAMOUNT>
+						</LEDGERENTRIES.LIST>
+					</VOUCHER>
+				</TALLYMESSAGE>
+			</REQUESTDATA>
+		</IMPORTDATA>
+	</BODY>
+</ENVELOPE>

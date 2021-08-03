@@ -1,4 +1,3 @@
-Products,GSTIN,Customer_Name,Address,Credit_Period,Sub_Total,Phone_Number,Central_Tax,users,Date_field,Total,ID,IDENTIFIER,State_Tax
-"Idhayam 1litre,11 Pcs,2761.00,251
-Idhayam 500ml,15 Pcs,2280.00,152
-",33AABCK8863F1ZH,KTV EDIBLE OILS LIMITED,"Chennai, Tamil Nadu, India",,5041.00,+919952801455,126.03,narayanansrinivasan37,22-Jul-2021,5293.06,100584000000136116,100584000000136113,126.03
+Products,GSTIN,Customer_Name,Address,Credit_Period,Sub_Total,Phone_Number,Central_Tax,users,Date_field,Total,ID,IDENTIFIER,Sales_Ledger,Pincode,State_Tax
+"Mantra 1litre,1 Pcs,246.00,246/Pcs
+",,ID Retail Shop,"69, Juntion Road",7 Days,246.00,+919952801455,6.15,narayanansrinivasan37,01-Aug-2021,258.30,100584000000148042,100584000000148039,Cash Sales,611423,6.15
